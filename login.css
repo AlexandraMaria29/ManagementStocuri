@@ -1,0 +1,53 @@
+body{
+	margin: 0 auto;;
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+    background-image:image("C:\Users\Madalina\Desktop\Facultate\Proiecte\Web An II\ManagementStocuri\resources\sparkle.png")
+    }
+
+.container{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(233, 229, 186, 0.408);
+	margin-top: 160px;
+    border-radius: 15%;
+}
+
+.container img{
+	width: 130px;
+	height: 130px;
+	margin-top: -30px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 20px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #390f61;
+	color: #fff;
+}
